@@ -12,5 +12,5 @@
 ### folder and name it 'credentials.json'
 ### as shown below.
 
-gcp_credentials = "credentials.json"
-gcp_project = "<YOUR_GCP_PROJECT>"
+gcp_credentials = "credentialsjson"
+gcp_project = "migcpproject"

@@ -1,16 +1,16 @@
-###########################################
-################## GCP ####################
-###########################################
+variable "project" {
+  type = "string"
+}
 
-### You need to have a service account key
-### from your GCP account that Terraform
-### can use to manage the resources. Thus,
-### follow the steps to get one in this link:
-### https://cloud.google.com/community/tutorials/getting-started-on-gcp-with-terraform
+variable "region" {
+  type = "string"
+}
 
-### After this, copy the file into this
-### folder and name it 'credentials.json'
-### as shown below.
+variable "zone" {
+  type = "string"
+}
 
-gcp_credentials = "credentialsjson"
-gcp_project = "migcpproject"
+
+variable "service_account_key" {
+  type = "string"
+}

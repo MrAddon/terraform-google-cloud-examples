@@ -1,8 +1,8 @@
 # Configure the Google Cloud provider
-provider "google" {
-  project = "terraform-examples-gcloud"
-  region  = "us-east1-b"
-}
+# provider "google" {
+#  project = "terraform-examples-gcloud"
+#  region  = "us-east1-b"
+#}
 
 # Create a Google Compute instance
 resource "google_compute_instance" "example" {
